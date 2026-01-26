@@ -1,0 +1,48 @@
+name: 💡 Feature Request
+description: Suggest an idea for our extensions
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We love hearing new ideas! Please describe what you'd like to see.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which product is this for?
+      options:
+        - SideSheet Pro
+        - GuideBuilder
+        - FluxCanvas
+        - Website / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: pitch
+    attributes:
+      label: The Pitch
+      description: What is the problem you want to solve?
+      placeholder: "I'm always frustrated when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like.
+      placeholder: "It would be great if..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How important is this to you?
+      options:
+        - Nice to have
+        - Would use daily
+        - Critical / Dealbreaker

@@ -1,0 +1,29 @@
+name: 🆘 General Support
+description: Questions, help, or account issues
+title: "[Support]: "
+labels: ["question", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help? You're in the right place.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which product is this for?
+      options:
+        - SideSheet Pro
+        - GuideBuilder
+        - FluxCanvas
+        - General Inquiry
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: How can we help?
+      description: Ask away!
+    validations:
+      required: true
