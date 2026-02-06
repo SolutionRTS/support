@@ -25,7 +25,7 @@ We use GitHub Issues to track bugs, feature requests, and support tickets. You c
 
 ### 🎨 FluxCanvas - NOW AVAILABLE on the Chrome Webstore!
 *Web Annotation & Drawing*
-- [Download](https://solutionrts.com)](https://chromewebstore.google.com/detail/fluxcanvas-web-annotator/kmgheajggbgjgpfkfipedoamhkjaecac))
+- [Download](https://chromewebstore.google.com/detail/fluxcanvas-web-annotator/kmgheajggbgjgpfkfipedoamhkjaecac)
 - [Website](https://solutionrts.com)
 - [Report Bug](https://github.com/SolutionRTS/support/issues/new?assignees=&labels=bug%2Ctriage&template=bug_report.yml&title=%5BBug%5D%3A+)
 
